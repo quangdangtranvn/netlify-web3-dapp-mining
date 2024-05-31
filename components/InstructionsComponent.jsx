@@ -9,7 +9,6 @@ export default function InstructionsComponent() {
 					create<span>-web3-dapp</span>
 				</h1>
 				<p>
-					Get started by editing this page in{" "}
 					<span>/pages/index.js</span>
 				</p>
 			</header>
@@ -21,7 +20,7 @@ export default function InstructionsComponent() {
 				>
 					<div className={styles.button}>
 						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
-						<p>Add Components</p>
+						<p>Play Game</p>
 					</div>
 				</a>
 				<a
