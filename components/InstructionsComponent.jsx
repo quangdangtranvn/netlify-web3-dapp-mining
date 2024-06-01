@@ -16,9 +16,7 @@ export default function InstructionsComponent() {
 			<div className={styles.buttons_container}>
 				<a
 					target={"_blank"}
-					<p>
-					<span>/game/index.html</span>
-				</p>
+					href={"https://quangdangtranvn.github.io/netlify-web3-dapp-mining/game/"}
 				>
 					<div className={styles.button}>
 						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
@@ -27,7 +25,7 @@ export default function InstructionsComponent() {
 				</a>
 				<a
 					target={"_blank"}
-					href={"../game/index.html"}
+					href={"https://quangdangtranvn.github.io/netlify-web3-dapp-mining/game/"}
 				>
 					<div className={styles.button}>
 						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
