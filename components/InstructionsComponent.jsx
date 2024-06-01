@@ -1,4 +1,5 @@
 import styles from "../styles/InstructionsComponent.module.css";
+import game from "../game/index.html"
 import Router, { useRouter } from "next/router";
 export default function InstructionsComponent() {
 	const router = useRouter();
@@ -17,8 +18,9 @@ export default function InstructionsComponent() {
 				<a
 					target={"_blank"}
 					<p>
-					<span>/game/index.html</span>
+					game
 				</p>
+				href={"https://github.com/quangdangtranvn/netlify-web3-dapp-mining/blob/main/game/index.html"}
 				>
 					<div className={styles.button}>
 						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
