@@ -1,5 +1,4 @@
 import styles from "../styles/InstructionsComponent.module.css";
-import game from "../game/index.html"
 import Router, { useRouter } from "next/router";
 export default function InstructionsComponent() {
 	const router = useRouter();
@@ -26,7 +25,7 @@ export default function InstructionsComponent() {
 				</a>
 				<a
 					target={"_blank"}
-					
+					href={"../game/index.html"}
 				>
 					<div className={styles.button}>
 						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
