@@ -25,7 +25,7 @@ const client = new StreamVideoClient({ apiKey, User: { id: userId }, token });
 const call = client.call('audio_room', callid);
 call.getOrCreate();
 
-export const MyCallApp = () => {
+export const getCallApp = () => {
     // Assuming you have the 'client' and 'call' created
     return (
         <StreamVideo client={client}>
@@ -61,7 +61,7 @@ export const getStream = () => {
             );
 };
 
-export const VideoButton = () => {
+export const videoButton = () => {
   const {useCameraState} = useCallStateHooks();
             const {camera, isMute} = useCameraState();
             return (
