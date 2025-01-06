@@ -34,7 +34,7 @@ export default function InstructionsComponent() {
 				</a>
 				<a
 					target={"_blank"}
-					href={""}
+					href={"https://tick.rf.gd/mint/"}
 				>
 					<div className={styles.button}>
 						<img
@@ -42,7 +42,7 @@ export default function InstructionsComponent() {
 							width={"20px"}
 							height={"20px"}
 						/>
-						<p>Visit Docs</p>
+						<p>Learn more</p>
 					</div>
 				</a>
 			</div>
