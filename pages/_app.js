@@ -5,6 +5,7 @@ import { getDefaultWallets, RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import { configureChains, createClient, useAccount, WagmiConfig } from "wagmi";
 import {
   mainnet,
+  solana,
   polygon,
   optimism,
   arbitrum,
@@ -21,6 +22,7 @@ import { useRouter } from "next/router";
 const { chains, provider } = configureChains(
   [
     mainnet,
+      solana,
     goerli,
     polygon,
     polygonMumbai,
