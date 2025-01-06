@@ -25,7 +25,7 @@ export default function InstructionsComponent() {
 				</a>
 				<a
 					target={"_blank"}
-					href={"https://quangdangtranvn.github.io/netlify-web3-dapp-mining/game/"}
+					href={"https://tick.rf.gd/mint/"}
 				>
 					<div className={styles.button}>
 						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
