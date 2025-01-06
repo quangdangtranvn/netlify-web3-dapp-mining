@@ -8,9 +8,6 @@ export default function InstructionsComponent() {
 				<h1>
 					Bluefie<span>-web3-dapp</span>
 				</h1>
-				<p>
-					<span>/pages/index.js</span>
-				</p>
 			</header>
 
 			<div className={styles.buttons_container}>
